@@ -6,7 +6,7 @@ AND titre LIKE "%E"
 
 
 #2
-SELECT titre, duree_min, resum
+SELECT titre AS "titre_film", duree_min AS "duree_film", resum AS "resume_film"
 FROM film
 
 
